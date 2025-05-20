@@ -12,7 +12,7 @@ export const App = ()=>{
       <Header title="BSS React"/>
       <PromoBanner />
       <FeatureProductsSection productInfo={products} />
-      <Footer />
+      <Footer year={new Date().getFullYear()}/>
 
 
     </div>
